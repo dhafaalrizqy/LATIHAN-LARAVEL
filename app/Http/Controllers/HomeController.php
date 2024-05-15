@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
-use Illuminate\Support\Facades\Auth;
 
-class PageController extends Controller
+class HomeController extends Controller
 {
     public function index()
     {
@@ -22,8 +20,4 @@ class PageController extends Controller
     {
         return view('contact');
     }
-
-    
-
 }
-
